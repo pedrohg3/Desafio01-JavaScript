@@ -23,10 +23,11 @@ alert(`Resto da divisão : ${restDiv} `)
 
 
 if ((userNumber + userNumber2) % 2 == 0) {
-    alert("A soma dos dois números é par!")
+    alert(`A soma dos dois números é par: ${sum} `)
 } else {
-    alert("A soma dos dois números é ímpar!")
+    alert(`A soma dos dois números é ímpar: ${sum} `)
 }
+
 
 if (userNumber == userNumber2) {
     alert("Os números que você escolheu são iguais!")
